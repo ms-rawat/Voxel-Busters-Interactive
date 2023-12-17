@@ -30,7 +30,7 @@ app.post('/insert', async(req,res)=>{
  const data = req.body
   
 try{
-  await client.connect();
+  await client.connect();x
   const result= await client.db('startupData').collection("Startups").insertOne({
     Date: data.Date,
     StartUpName: data.StartUpName,
