@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200&family=Nova+Square&family=Orbitron&family=Rubik+Doodle+Shadow&display=swap');
+
+TablePagination{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.card {
+     
+    border-radius: 20px;
+   }
+@media (min-width: 1024px) {
+    .card {
+     margin: 4px;
+     width: 31%;
+       }
+    }
+.startUpName{
+    font-family:Rubik Doodle Shadow;
+    font-size: xx-large;
+    color: rgb(4, 11, 19);
+    
+}
+
+.IV{
+    font-family: Orbitron;
+    font-size: medium;
+    color: rgb(4, 11, 19);
+    letter-spacing: 2px;
+}
+
+.Location{
+    font-family:Nova Square ;
+    color: coral;
+}
+.Investment{
+    font-family: cursive;
+    color: rgb(4, 11, 19);
+}
+.header{
+    font-family:Kalnia;
+    font-size: xx-large;
+    color: white;
+
+
+}
+.heading {
+    font-family:Kalnia ;
+}
+
+#outlined-basic input{
+    width: 100%;
+}

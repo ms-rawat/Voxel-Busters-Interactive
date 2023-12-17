@@ -1,0 +1,57 @@
+button{
+    border-radius: 5px;
+    background-color: transparent;
+    border: solid 1px #ebcfcf;
+    height: 36px;
+    min-width: 36px;
+    padding-left: 3px;
+    padding-right:3px;
+    
+}
+.sidebar {
+   
+    overflow-y: auto; 
+    overflow-x: hidden;
+   
+    width: inherit;
+  }
+  
+  .sidebar::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .sidebar::-webkit-scrollbar-thumb {
+    background-color: #aaa4a4; 
+    border-radius: 3px;
+  }
+  
+  .sidebar::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown :hover {
+    cursor: pointer;
+  }
+
+  .list-close {
+   
+    height: 0;
+    transition: height 150ms linear 0s;
+    overflow: hidden;
+  }
+  .list-open{
+    
+    height: auto; 
+    transition: height 150ms linear 0s;
+    overflow: hidden;
+  }
+  .up{
+    transform: rotate(0deg) ;
+    transition: transform 100ms linear;
+  }
+
+  .down{
+    transform: rotate(180deg);
+    transition: transform 100ms ease-in-out;
+  }
+ 
