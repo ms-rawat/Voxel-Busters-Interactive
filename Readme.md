@@ -1,3 +1,5 @@
+#demo of my project at 
+https://www.youtube.com/watch?v=JwbR4WhNg2I
 
 
 # Clone the repository
@@ -12,3 +14,4 @@ cd frontend
 npm install
 cd ../backend
 npm install
+# saperat reame file for fontend and backend  inside their respective folders
