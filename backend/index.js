@@ -51,6 +51,7 @@ try{
     }
 
 })
-app.listen(8000, () => console.log("Server is running at port 8000"));
+const port=process.env.port
+app.listen(port, () => console.log("Server is running at port "+port));
 
 module.exports = app;
