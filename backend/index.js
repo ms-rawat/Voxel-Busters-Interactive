@@ -37,7 +37,7 @@ try{
     IndustryVertical:data.IndustryVertical,
     SubVertical: data.SubVertical,
     CityLocation: data.CityLocation,
-    InvestorsName: data.InvestmentType,
+    InvestorsName:data.InvestorsName,
     InvestmentType: data.InvestmentType,
     AmountInUSD: data.AmountInUSD,
   })
