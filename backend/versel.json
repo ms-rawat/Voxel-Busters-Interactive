@@ -1,16 +1,26 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "index.js",
-        "use": "@now/node"
-      }
+  "version": 2,
+  "build": {
+    "commands": [
+      "npm install",
+      "npm run build:prod"
     ],
-    "routes": [
-      {
-        "src": "/(.*)",
-    
-        "dest": "index.js"
-      }
-    ]
-  }
+    "output": "./dist"
+  },
+  "env": {
+    "DB_STRING": "process.env.DB_STRING",
+    "NODE_ENV": "production"
+  },
+  "routes": [
+    {
+      "src": "/data",
+      "dest": "index.js"
+     
+    },
+    {
+      "src": "/insert",
+      "dest": "index.js"
+      
+    }
+  ]
+}
